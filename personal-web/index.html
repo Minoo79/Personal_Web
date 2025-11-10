@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+    <title>Resume Webstie</title>
+</head>
+<body class="row bg-dark text-light position-relative w-100 vh-150 text-shadow">
+    <!--NAVIGATION-->
+    <nav class="navbar nav-bar-dark bg-dark vh-100 col-1 d-md-none" 
+    style="width: 80px;">
+<div class="container">
+    <div>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
+            <li class="nav-item"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="HOME">
+                <a href="#" class="nav-link ative"
+                aria-current="page">
+                    <i class="bi bi-house text-warning"></i></a></li>
+            <li class="nav-item"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="ABOUT">
+                <a href="#ABOUT" class="nav-link">
+                    <i class="bi bi-person"></i></a></li>
+            <li class="nav-item"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="SERVICES">
+                <a href="#SEVICES" class="nav-link">
+                    <i class="bi bi-briefcase"></i></a></li>
+            <li class="nav-item"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="CONTACT">
+                <a href="#CONTACT" class="nav-link ative">
+                    <i class="bi bi-telephone"></i></a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+    <!--HEADER-->
+    <header class="possition-relative vh-100 col-10 col-md-4"
+    style="background: url(https://source.unsplash.com/yuyGQmu_508) center/cover no-repeat">
+    <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+        <h2 class="display-1 fw-bolder lh-lg">Amy Clark</h2>
+        <h4>DEVELOPER</h4>
+        <div class="row mt-3 max-auto">
+            <ul class="row list-unstyled fs-5">
+                <li class="col"><a href="" class="i bi bi-instagram text-light"></a></li>
+                <li class="col"><a href="" class="i bi bi-telegram text-light"></a></li>
+                <li class="col"><a href="" class="i bi bi-youtube text-light"></a></li>
+                <li class="col"><a href="" class="i bi bi-envelope text-light"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    </header>
+    <!--MAINSECTION-->
+    <main class="row col-12 col-md-8">
+    <!--MAIN> ABOUT-->
+    <section id="ABOUT" class="ms-3">
+        <h2 class="mt-4">ABOUT ME</h2>
+        <div class="row col-12 text-warning mt-3">
+            <div class="col">Exp / +10 Years</div>
+            <div class="col">Location / Tehran</div>
+            <div class="col">Domain / Freelancer</div>
+        </div>
+        <p class="text-secondary mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Rem in cum quos rerum magni temporibus soluta aperiam fugit possimus similique, iusto impedit suscipit velit 
+            neque dolor quibusdam itaque adipisci natus.
+        </p>
+        <!--ABOUT> CV BUTTON & CONTENT-->
+        <!--CV BUTTON-->
+        <button class="btn btn-outline-warning"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#ocAbout"
+        aria-controls="ocAbout">
+            CV
+        </button>
+        <!--CV CONTENT-->
+        <div class="offcanvas offcanvas-end w-75 height-auto bg-dark"
+        tabindex="-1"
+        id="ocAbout">
+        <div class="offcanvas-header">
+            <h5 class="text-warning">Resume</h5>
+            <button type="button"
+            class="btn-close btn-close-white"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h4 class="display-4 mb-3 text-light">
+                Minou
+            </h4>
+            <h4 class="display-6 mb-4 text-white-50">Web Designer; Developer</h4>
+            <h4 class="display-6 mb-2 text-light">About Me</h4>
+            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iure similique, nostrum aut asperiores illum adipisci, 
+                culpa molestias quas ipsa itaque libero at. Facere quis eum quos labore minima vel nostrum.
+            </p>
+            <h4 class="display-6 mb-2 text-light">Career Objective</h4>
+            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iure similique, nostrum aut asperiores illum adipisci, 
+                culpa molestias quas ipsa itaque libero at. Facere quis eum quos labore minima vel nostrum.
+            </p>
+            <h4 class="display-6 mb-2 text-light">Skills <small class="fs-6 text-light">(STILL GROWING)</small></h4>
+            <p class="text-white-50">TROUBLESHOOTING</p>
+            <div class="progress mb-1">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                role="progress-bar"
+                style="width:68%"></div>
+            </div>
+            <p class="text-white-50">CRITIAL THINKING</p>
+            <div class="progress mb-1">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                role="progress-bar"
+                style="width:95%"></div>
+            </div>
+            <p class="text-white-50">DEVELOPING</p>
+            <div class="progress mb-1">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                role="progress-bar"
+                style="width:70%"></div>
+            </div>
+            <p class="text-white-50">ACTIVE LEARNING</p>
+            <div class="progress mb-1">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                role="progress-bar"
+                style="width:50%"></div>
+            </div>
+            <p class="text-white-50">WEB DESIGNING</p>
+            <div class="progress mb-1">
+                <div class="progress-bar bg-warning progress-bar-striped"
+                role="progress-bar"
+                style="width:100%" ></div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--MAIN> SERVICES-->
+    <section id="SERVICES" class="ms-3">
+        <h2 class="mt-4">SERVICES</h2>
+        <div class="row row-cols-1 row-cols-md-2">
+
+            <div class="col card bg-transparent">
+                <div class="card-body">
+                    <i class="bi bi-display h1 text-warning"></i>
+                    <h5 class="card-title mt-3 text-light">Development</h5>
+                    <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eos ratione placeat voluptatum iste dolorem! Maxime?</p>
+                        <button class="btn btn-outline-warning w-100"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#oc_dev"
+                    aria-controls="oc_dev">MORE...</button>
+                    <!--DEVELOPMENT> OFFCANVAS-->
+                    <div class="offcanvas offcanvas-end w-75 bg-dark text-light"
+                    tabindex="-1"
+                    id="oc_dev">
+                    <div class="offcanvas-headder">
+                        <h5 class="text-warning">Web Development</h5>
+                        <button type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
+                    </div>
+                </div>
+                </div>
+            </div>
+    <!--SEO-->
+
+            <div class="col card bg-transparent">
+                <div class="card-body">
+                    <i class="bi bi-display h1 text-warning"></i>
+                    <h5 class="card-title mt-3 text-light">SEO</h5>
+                    <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam aliquid sapiente hic culpa. Lorem ipsum dolor sit amet.</p>
+                        <button class="btn btn-outline-warning w-100"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#oc_seo"
+                    aria-controls="oc_seo">MORE...</button>
+                    <div class="offcanvas offcanvas-end w-75 bg-dark text-light"
+                    tabindex="-1"
+                    id="oc_seo">
+                    <div class="offcanvas-headder">
+                        <h5 class="text-warning">SEO</h5>
+                        <button type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+    <!--DATABASE-->
+
+            <div class="col card bg-transparent">
+                <div class="card-body">
+                    <i class="bi bi-display h1 text-warning"></i>
+                    <h5 class="card-title mt-3 text-light">Database</h5>
+                    <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et a pariatur molestiae, voluptatibus dolores dolore.</p>
+                        <button class="btn btn-outline-warning w-100"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#oc_db"
+                    aria-controls="oc_db">MORE...</button>
+                    <div class="offcanvas offcanvas-end w-75 bg-dark text-light"
+                    tabindex="-1"
+                    id="oc_db">
+                    <div class="offcanvas-headder">
+                        <h5 class="text-warning">Database</h5>
+                        <button type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+    <!--DATA SECURITY-->
+
+            <div class="col card bg-transparent">
+                <div class="card-body">
+                    <i class="bi bi-display h1 text-warning"></i>
+                    <h5 class="card-title mt-3 text-light">Data Security</h5>
+                    <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, repellat? 
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                    <button class="btn btn-outline-warning w-100"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#oc_ds"
+                    aria-controls="oc_ds">MORE...</button>
+                    <div class="offcanvas offcanvas-end w-75 bg-dark text-light"
+                    tabindex="-1"
+                    id="oc_ds">
+                    <div class="offcanvas-headder">
+                        <h5 class="text-warning">Data Security</h5>
+                        <button type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body text-light">
+                        <h4 class="display-4 mb-3">What is a web developer?</h4>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Distinctio modi fugiat alias nihil natus repellat accusantium facilis ab quia repellendus ad quidem 
+                            corrupti minima tempore aut, officia pariatur voluptas quibusdam perspiciatis? Labore porro voluptas, 
+                            adipisci commodi itaque ab, dicta nihil molestias facere repudiandae reiciendis in saepe repellendus, 
+                            odio ducimus assumenda.</p>
+                        <h4 class="display-4 mb-3">What is a front-end developer?</h4>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Maxime fuga veritatis minima commodi cumque impedit.</p>
+                        <h4 class="display-4 mb-3">What is a back-end web developer?</h4>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Possimus qui maxime, excepturi totam sint alias veniam nulla pariatur, corporis ex odio. 
+                            Cupiditate alias, illo provident error quos adipisci in odit.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+    <!--SERVICES> DEVELOPMENT OFFCANVAS-->
+    <!--SERVICES> SEO OFFCANVAS-->
+    <!--SERVICES> DATA OFFCANVAS-->
+    <!--SERVICES> DATA SECURITY OFFCANVAS-->
+        </div>
+    <!--SERVICES> DEVELOPMENT OFFCANVAS-->
+    <!--SERVICES> SEO OFFCANVAS-->
+    <!--SERVICES> DATA OFFCANVAS-->
+    <!--SERVICES> DATA SECURITY OFFCANVAS-->
+    </section>
+    <!--CONTACT-->
+    <section id="CONTACT" class="ms-3">
+        <h2 class="mt-4">CONTACT ME</h2>
+    </section>
+    </main>
+    <!--FOOTER-->
+
+    <!--Script Bootstarp JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+crossorigin="anonymous">
+</script>
+    <!--script for tooltip-->
+<script>
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+</body>
+</html>
